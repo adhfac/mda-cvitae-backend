@@ -11,7 +11,7 @@
       "description": "Local Development Server"
     },
     {
-      "url": "https://mda-cvitae-backend.vercel.app",
+      "url": "https://mda-cvitae-backend.vercel.app/api",
       "description": "Deployed Server"
     }
   ],
@@ -24,7 +24,9 @@
   "paths": {
     "/auth/register": {
       "post": {
-        "tags": ["Auth"],
+        "tags": [
+          "Auth"
+        ],
         "description": "",
         "responses": {
           "default": {
@@ -50,7 +52,9 @@
     },
     "/auth/login": {
       "post": {
-        "tags": ["Auth"],
+        "tags": [
+          "Auth"
+        ],
         "description": "",
         "responses": {
           "default": {
@@ -76,7 +80,9 @@
     },
     "/auth/me": {
       "get": {
-        "tags": ["Auth"],
+        "tags": [
+          "Auth"
+        ],
         "description": "",
         "responses": {
           "default": {
@@ -92,7 +98,9 @@
     },
     "/media/upload-single": {
       "post": {
-        "tags": ["Media"],
+        "tags": [
+          "Media"
+        ],
         "description": "",
         "responses": {
           "default": {
@@ -124,7 +132,9 @@
     },
     "/media/upload-multiple": {
       "post": {
-        "tags": ["Media"],
+        "tags": [
+          "Media"
+        ],
         "description": "",
         "responses": {
           "default": {
@@ -159,7 +169,9 @@
     },
     "/media/delete": {
       "delete": {
-        "tags": ["Media"],
+        "tags": [
+          "Media"
+        ],
         "description": "",
         "responses": {
           "default": {

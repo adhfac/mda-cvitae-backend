@@ -12,7 +12,7 @@ const doc = {
       description: 'Local Development Server',
     },
     {
-      url: 'https://backend-cvps.vercel.app/api',
+      url: 'https://mda-cvitae-backend.vercel.app/api',
       description: 'Deployed Server',
     },
   ],
